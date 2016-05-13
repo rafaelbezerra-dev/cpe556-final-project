@@ -1,4 +1,4 @@
-# Project Server
+# The Server
 
 #### Introduction
 The server for the project was build using Python v2.7, the Flask Framework v0.10.1 and Flask's library, Flask-RESTful v0.3.5.
