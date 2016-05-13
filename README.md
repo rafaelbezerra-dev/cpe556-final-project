@@ -6,13 +6,20 @@ The project consists of a simple server with RESTful API that supports users to 
 
 The goal was to build a TCP client and server and have them communicating over the WLAN.
 
+## Documentation
+A more detailed documentation on the client an the server can be found at the following links:
+* Client
+* Server
+
+## Tests
+
 The client-side of the project was tested on the following devices:
 * Google Nexus 7 – 2013 version (Android 6.0.1)
 * Google Nexus 6P (Android 6.0.1)
 * Galaxy Nexus (Cyanogenmod 11)
 
 And the server side was tested on a Raspberry PI 3.
-
+## Future Work
 Future work may include:
 * Persist the messages and clients using SQLite3 Database
 * Add a few more functions to the chat room
