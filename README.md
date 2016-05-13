@@ -1,20 +1,20 @@
-# CPE 556 - Computing Principles of Embedded Systems
+# CPE 556 - Final Project
 
-## Dependencies
-```bash
-$ sudo pip install Flask
-$ sudo pip install flask-restful
-```
+The repo contains all the code for the Final Project of CPE 556 - Computing Principles of Embedded Systems.
 
-## Running
-```bash
-$ adb -s [device] install app-localchat-debug.apk
-$ cd flask-server
-$ python main.py 155.246.76.25 8000
-```
+The project consists of a simple server with RESTful API that supports users to register as clients and exchange message with other user already registered. The project also has a simple Android App to act as the client-side and allow users to properly register (and change their usernames) and send/view messages.
 
-## References
-* http://loopj.com/android-async-http/
-* http://flask.pocoo.org/
-* http://flask-restful-cn.readthedocs.io/en/0.3.4/installation.html
-* http://www.bradcypert.com/writing-a-restful-api-in-flask-sqlalchemy/
+The goal was to build a TCP client and server and have them communicating over the WLAN.
+
+The client-side of the project was tested on the following devices:
+* Google Nexus 7 – 2013 version (Android 6.0.1)
+* Google Nexus 6P (Android 6.0.1)
+* Galaxy Nexus (Cyanogenmod 11)
+
+And the server side was tested on a Raspberry PI 3.
+
+Future work may include:
+* Persist the messages and clients using SQLite3 Database
+* Add a few more functions to the chat room
+* Analyze how this application could differ from their competitors* 
+
