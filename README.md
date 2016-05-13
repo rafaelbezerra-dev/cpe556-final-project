@@ -8,8 +8,8 @@ The goal was to build a TCP client and server and have them communicating over t
 
 ## Documentation
 A more detailed documentation on the client an the server can be found at the following links:
-* Client
-* Server
+* [Client](https://github.com/rafaelbezerra-dev/cpe556-final-project/tree/master/MyApplication)
+* [Server](https://github.com/rafaelbezerra-dev/cpe556-final-project/tree/master/flask-server)
 
 ## Tests
 
